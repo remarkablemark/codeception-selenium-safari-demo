@@ -1,5 +1,6 @@
 {
     "require-dev": {
-        "codeception/module-webdriver": "^4.0"
+        "codeception/module-webdriver": "^4.0",
+        "codeception/codeception": "^5.2"
     }
 }
