@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "selenium-standalone install && selenium-standalone start"
+  },
   "devDependencies": {
     "selenium-standalone": "^10.0.1"
   }

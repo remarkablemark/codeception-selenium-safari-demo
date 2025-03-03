@@ -8,7 +8,30 @@ Codeception is installed for acceptance, functional, and unit testing:
 4. Write first test in `tests/Acceptance/FirstCest.php`
 5. Run tests using: `codecept run`
 
+## Prerequisites
+
+- PHP + Composer
+- Node.js + NPM
+
+## Install
+
+Install the dependencies:
+
+```sh
+composer install
+```
+
+```sh
+npm install
+```
+
 ## Run
+
+Launch Selenium:
+
+```sh
+npm start
+```
 
 Tests are executed with `run` command:
 
