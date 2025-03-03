@@ -8,6 +8,14 @@ Codeception is installed for acceptance, functional, and unit testing:
 4. Write first test in `tests/Acceptance/FirstCest.php`
 5. Run tests using: `codecept run`
 
+## Run
+
+Tests are executed with `run` command:
+
+```sh
+php vendor/bin/codecept run --steps
+```
+
 ## Resources
 
 - [Quickstart](https://codeception.com/quickstart)
