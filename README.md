@@ -12,17 +12,15 @@ Codeception is installed for acceptance, functional, and unit testing:
 
 ### PHP
 
-- PHP
 - Composer
 
 ### Node.js
 
-- Node.js
 - NPM
 
 ### Safari
 
-You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver:
+You must enable the `Allow Remote Automation` option in Safari's Develop menu to control Safari via WebDriver:
 
 1. Open Safari.
 2. Go to the `Safari` menu in the top left corner.
@@ -47,7 +45,7 @@ npm install
 Launch Selenium:
 
 ```sh
-npm start
+npm start # npx selenium-standalone install && npx selenium-standalone start
 ```
 
 Tests are executed with `run` command:
