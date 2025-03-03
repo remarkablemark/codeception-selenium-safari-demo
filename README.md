@@ -42,7 +42,7 @@ npm install
 
 ## Run
 
-Launch Selenium:
+Launch [Selenium](https://www.npmjs.com/package/selenium-standalone):
 
 ```sh
 npm start # npx selenium-standalone install && npx selenium-standalone start
