@@ -28,6 +28,8 @@ You must enable the `Allow Remote Automation` option in Safari's Develop menu to
 4. Navigate to the `Developer` tab.
 5. Check the checkbox next to `Allow remote automation`.
 
+See [instructions](https://github.com/remarkablemark/codeception-selenium-safari-demo/wiki/Safari-WebDriver).
+
 ## Install
 
 Install the dependencies:
