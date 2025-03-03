@@ -10,8 +10,25 @@ Codeception is installed for acceptance, functional, and unit testing:
 
 ## Prerequisites
 
-- PHP + Composer
-- Node.js + NPM
+### PHP
+
+- PHP
+- Composer
+
+### Node.js
+
+- Node.js
+- NPM
+
+### Safari
+
+You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver:
+
+1. Open Safari.
+2. Go to the `Safari` menu in the top left corner.
+3. Select `Settings...`.
+4. Navigate to the `Developer` tab.
+5. Check the checkbox next to `Allow remote automation`.
 
 ## Install
 
@@ -37,6 +54,12 @@ Tests are executed with `run` command:
 
 ```sh
 php vendor/bin/codecept run --steps
+```
+
+Or run:
+
+```sh
+composer test
 ```
 
 ## Resources

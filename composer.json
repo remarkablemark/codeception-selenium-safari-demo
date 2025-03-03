@@ -1,4 +1,9 @@
 {
+    "scripts": {
+        "test": [
+            "codecept run --steps"
+        ]
+    },
     "require-dev": {
         "codeception/module-webdriver": "^4.0",
         "codeception/codeception": "^5.2",

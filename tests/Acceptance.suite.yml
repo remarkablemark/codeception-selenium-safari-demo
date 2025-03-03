@@ -6,8 +6,9 @@
 actor: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser:
+        - WebDriver:
             url: https://example.com/
+            browser: safari
 
 # Add Codeception\Step\Retry trait to AcceptanceTester to enable retries
 step_decorators:
