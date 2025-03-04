@@ -65,4 +65,4 @@ composer test
 ## Resources
 
 - [Quickstart](https://codeception.com/quickstart)
-- [Webdriver](https://codeception.com/docs/modules/WebDriver)
+- [WebDriver](https://codeception.com/docs/modules/WebDriver)
